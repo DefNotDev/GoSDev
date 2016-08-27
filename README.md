@@ -1,2 +1,0 @@
-# GoSDev
-vrau

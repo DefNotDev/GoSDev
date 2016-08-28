@@ -5,8 +5,8 @@ require("OpenPredict")
 
 
 --Menu
-local JinxMenu = Menu("Jinx", "Jinx by DefNotDev")
-JinxMenu:SubMenu("Combo", "Jinx Combo")
+local JinxMenu = Menu("Jinx", "Jinx")
+JinxMenu:SubMenu("Combo", "Combo")
 JinxMenu.Combo:Boolean("Q", "Use Q on Combo", true)
 JinxMenu.Combo:Boolean("W", "Use W on Combo", true)
 JinxMenu.Combo:Boolean("E", "Use E on Combo", true)

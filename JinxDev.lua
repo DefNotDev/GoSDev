@@ -27,5 +27,5 @@ function JinxCombo()
 if IOW:Mode() == "Combo" then
 
 if JinxMenu.Combo.Q:Value() and Ready(_Q) and ValidTarget(target, 1000)
-CastTargetSpell(target, _Q)
+CastSpell(_Q)
 
